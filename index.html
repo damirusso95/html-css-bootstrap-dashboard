@@ -36,6 +36,7 @@
             <i id="icon-none" class="fa-solid fa-circle-question" style="color: #707070;"></i>
             <i id="icon-none" class="fa-solid fa-ellipsis-vertical" style="color: #707070;"></i>
             <i class="fa-solid fa-bell" style="color: #FFD43B;"></i>
+
         </div>
     </nav>
     <!-- fine navbar -->
@@ -75,7 +76,7 @@
                         </div>
 
                         <div>
-                            <span class="badge rounded-pill text-bg-primary">Piano blaze</span> >> 
+                            <span class="badge rounded-pill text-bg-primary">Piano blaze</span> >>
                             <span id="span-none" class="badge rounded-pill text-bg-primary">Piano blaze</span>
                             <span id="span-none" class="badge rounded-pill text-bg-primary">Piano blaze</span>
                             <span id="span-none" class="badge rounded-pill text-bg-primary">Piano blaze</span>
@@ -88,7 +89,54 @@
                     </div>
 
                     <div class="col-3 col-md-4 col-sm-3">
-                        <span>nuovo studente</span> <i class="fa-regular fa-square-plus" style="color: #ffffff;"></i>
+                        <span>nuovo studente</span> <i class="fa-regular fa-square-plus" style="color: #ffffff;" btn
+                            btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                            aria-controls="offcanvasScrolling"></i>
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
+                            tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">inserisci un nuovo studente
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- corpo -->
+                                <div class="row mt-3">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Nome"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Cognome"
+                                            aria-label="Last name">
+                                    </div>                                    
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Email"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Password"
+                                            aria-label="Last name">
+                                    </div>                                    
+                                </div>
+
+
+                                <div class="row mt-3">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Email"
+                                            aria-label="First name">
+                                    </div>                                                                     
+                                </div>
+
+
+
+                                <!-- fine corpo -->
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -357,11 +405,6 @@
 
                 </div>
             </div>
-
-
-
-
-
 
         </div>
     </div>
