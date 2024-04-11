@@ -10,3 +10,24 @@
     height: 80px;
     background-color: aqua;
 }
+
+::-webkit-scrollbar{
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+}
+
+.scroll-bar{
+    overflow: auto;
+    padding-right: 10px;
+}
+
+.background-img{
+    background-image: url(./img/sidebar-bg.png);
+}
+.border-tab{
+    border-bottom: solid 1px black;
+}

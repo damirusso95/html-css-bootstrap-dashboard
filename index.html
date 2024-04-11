@@ -16,14 +16,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>prova</title>
 </head>
 
 <body>
-
     <!-- header navbar -->
 
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar bg-body-tertiary h-5rem">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img class="w-100" src="./img/logo.svg" alt="Bootstrap">
@@ -33,82 +32,166 @@
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             </form>
             <!-- icone -->
-            <i class="fa-solid fa-bell"></i>
-            <i class="fa-solid fa-bell"></i>
-            <i class="fa-solid fa-bell"></i>
-            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-list" style="color: #707070;"></i>
+            <i class="fa-solid fa-circle-question" style="color: #707070;"></i>
+            <i class="fa-solid fa-ellipsis-vertical" style="color: #707070;"></i>
+            <i class="fa-solid fa-bell" style="color: #FFD43B;"></i>
         </div>
     </nav>
     <!-- fine navbar -->
 
 
-
-
-
-    <!-- contenitore che divide la pagina in 2 -->
     <div class="container-fluid">
         <div class="row">
-            <!-- colonna lato sx -->
-            <div class="col-8 px-0">
-                <!-- toolbar -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-2 vh-100">
-                            <p>testo</p>
-                            <p>testo</p>
-                            <p>testo</p>
-                            <p>testo</p>
-                            <p>testo</p>
+            <!-- sidebar sx -->
+            <div class="col-1 vh-100 bg-dark background-img">
+                <div class="row text-light text-start">
+                    <div class="mt-3">
+                        <i class="fa-solid fa-house" style="color: #ffffff;"></i> <span>Home</span>
+                        <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i> <span>Stats</span>
+                        <i class="fa-solid fa-signal" style="color: #ffffff;"></i> <span>Signal</span>
+                    </div>
+                    <div>
+                        <p>admin</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- fascione blu -->
+            <div class="col-11 px-0 vh-100 scroll-bar">
+
+                <div class="row bg-info text-light">
+                    <div class="col-6">
+                        <div>
+                            <span>Boolean</span> <span class="badge rounded-pill text-bg-primary">Piano blaze</span>
                         </div>
 
-                        <div class="col-10">
-                            <!--fascia blu sx  -->
-                            <div class="row prova">
-                                <div class="col-6">
-                                    <h4>boolean</h4>
-                                    <p>bottoni</p>
-                                </div>
-                                <div class="col-6">
-                                    <h4>studenti</h4>
-                                    <h4>125</h4>
-                                </div>
-                            </div>
-                            <!-- fine fascia blu sx -->
+                        <div>
+                            <span class="badge rounded-pill text-bg-primary">Piano blaze</span> >> <span
+                                class="badge rounded-pill text-bg-primary">Piano blaze</span> <span
+                                class="badge rounded-pill text-bg-primary">Piano blaze</span> <span
+                                class="badge rounded-pill text-bg-primary">Piano blaze</span>
+                        </div>
+                    </div>
 
+                    <div class="col-3">
+                        <p>Studenti online negli ultimi 30 minuti</p>
+                        <h2>125</h2>
+                    </div>
+
+                    <div class="col-3">
+                        <span>nuovo studente</span> <i class="fa-regular fa-square-plus" style="color: #ffffff;"></i>
+                    </div>
+
+                </div>
+
+
+
+                <!-- grande container -->
+                <div class="container-fluid px-0 bg-light">
+                    <div class="row">
+                        <!-- colonna lato sx -->
+                        <div class="col-8">
                             <!-- card tab -->
-                            <div class="row">
+                            <div class="row px-3">
                                 <div class="col-12 mt-3">
                                     <div class="card" style="width: 100%;">
                                         <div class="card-header">
                                             Featured
                                         </div>
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">An item</li>
-                                            <li class="list-group-item">A second item</li>
-                                            <li class="list-group-item">A third item</li>
-                                            <li class="list-group-item">A third item</li>
-                                            <li class="list-group-item">A third item</li>
-                                            <li class="list-group-item">A third item</li>
-                                            <li class="list-group-item">A third item</li>
-                                            <li class="list-group-item">A third item</li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-6">testo icona</div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-6">testo icona</div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-6">testo icona</div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-6">testo icona</div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-6">testo icona</div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-6">testo icona</div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-6">testo icona</div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-6">testo icona</div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-1 px-0">testo </div>
+                                                    <div class="col-2 px-0">testo </div>
+                                                </div>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <!-- fine tab -->
 
-                            <div class="row">
+
+                            <!-- accordion -->
+                            <div class="row px-3">
                                 <div class="col-12 mt-3">
                                     <div class="accordion" id="accordionExample">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <div class="card-header p-2 bg-light">
-                                                    Featured
+                                                    F.A.Q.
                                                 </div>
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseOne" aria-expanded="true"
                                                     aria-controls="collapseOne">
-                                                    Accordion Item #1
+                                                    Come aggiungere un nuovo studente?
                                                 </button>
                                             </h2>
                                             <div id="collapseOne" class="accordion-collapse collapse show"
@@ -116,10 +199,12 @@
                                                 <div class="accordion-body">
                                                     <strong>This is the first item's accordion body.</strong> It is
                                                     shown by default, until the collapse plugin adds the appropriate
-                                                    classes that we use to style each element. These classes control the
+                                                    classes that we use to style each element. These classes control
+                                                    the
                                                     overall appearance, as well as the showing and hiding via CSS
                                                     transitions. You can modify any of this with custom CSS or
-                                                    overriding our default variables. It's also worth noting that just
+                                                    overriding our default variables. It's also worth noting that
+                                                    just
                                                     about any HTML can go within the <code>.accordion-body</code>,
                                                     though the transition does limit overflow.
                                                 </div>
@@ -130,18 +215,21 @@
                                                 <button class="accordion-button collapsed" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                     aria-expanded="false" aria-controls="collapseTwo">
-                                                    Accordion Item #2
+                                                    Come posso accedere alle informazioni del mio account?
                                                 </button>
                                             </h2>
                                             <div id="collapseTwo" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <strong>This is the second item's accordion body.</strong> It is
-                                                    hidden by default, until the collapse plugin adds the appropriate
-                                                    classes that we use to style each element. These classes control the
+                                                    hidden by default, until the collapse plugin adds the
+                                                    appropriate
+                                                    classes that we use to style each element. These classes control
+                                                    the
                                                     overall appearance, as well as the showing and hiding via CSS
                                                     transitions. You can modify any of this with custom CSS or
-                                                    overriding our default variables. It's also worth noting that just
+                                                    overriding our default variables. It's also worth noting that
+                                                    just
                                                     about any HTML can go within the <code>.accordion-body</code>,
                                                     though the transition does limit overflow.
                                                 </div>
@@ -152,18 +240,21 @@
                                                 <button class="accordion-button collapsed" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                     aria-expanded="false" aria-controls="collapseThree">
-                                                    Accordion Item #3
+                                                    Posso usare questa dashboard da mobile?
                                                 </button>
                                             </h2>
                                             <div id="collapseThree" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <strong>This is the third item's accordion body.</strong> It is
-                                                    hidden by default, until the collapse plugin adds the appropriate
-                                                    classes that we use to style each element. These classes control the
+                                                    hidden by default, until the collapse plugin adds the
+                                                    appropriate
+                                                    classes that we use to style each element. These classes control
+                                                    the
                                                     overall appearance, as well as the showing and hiding via CSS
                                                     transitions. You can modify any of this with custom CSS or
-                                                    overriding our default variables. It's also worth noting that just
+                                                    overriding our default variables. It's also worth noting that
+                                                    just
                                                     about any HTML can go within the <code>.accordion-body</code>,
                                                     though the transition does limit overflow.
                                                 </div>
@@ -173,13 +264,85 @@
 
                                 </div>
                             </div>
+                            <!-- fine accordion -->
+                        </div>
+
+
+                        <!-- colonna lato dx -->
+                        <div class="col-4">
+                            <!-- checkbox -->
+                            <div class="row mt-3 px-3">
+                                <div class="col">
+
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-header">
+                                            TODO
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <div class="input-group-text">
+                                                    <input class="form-check-input mt-0" type="checkbox" value=""
+                                                        aria-label="Checkbox for following text input"> Kickoff nuove
+                                                    classi
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="input-group-text">
+                                                    <input class="form-check-input mt-0" type="checkbox" value=""
+                                                        aria-label="Checkbox for following text input"> Lezioni su
+                                                    bootstrap 5 in classe #75
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="input-group-text">
+                                                    <input class="form-check-input mt-0" type="checkbox" value=""
+                                                        aria-label="Checkbox for following text input"> Controllare
+                                                    usurname github
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- fine checkbox -->
+
+
+                            <!--card img -->
+                            <div class="row mt-3 px-3">
+                                <div class="col">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the
+                                                bulk of the card's content.</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Card link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
 
 
 
                         </div>
 
-                    </div>
 
+
+
+
+
+
+                    </div>
 
 
 
@@ -189,89 +352,11 @@
 
 
 
-            <!-- colonna lato dx -->
-            <div class="col-4">
-                <!--fascia blu dx  -->
-                <div class="row prova">
-                    <div class="col">
-                        <p>nuovo studente</p>
 
-                    </div>
-                </div>
-                <!-- fine fascia blu sx -->
-
-                <!-- checkbox -->
-                <div class="row mt-3">
-                    <div class="col">
-
-                        <div class="card" style="width: 100%;">
-                            <div class="card-header">
-                                TODO
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">
-                                    <div class="input-group-text">
-                                        <input class="form-check-input mt-0" type="checkbox" value=""
-                                            aria-label="Checkbox for following text input">testo
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="input-group-text">
-                                        <input class="form-check-input mt-0" type="checkbox" value=""
-                                            aria-label="Checkbox for following text input">testo
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="input-group-text">
-                                        <input class="form-check-input mt-0" type="checkbox" value=""
-                                            aria-label="Checkbox for following text input">testo
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- fine checkbox -->
-
-
-                <!--card img -->
-                <div class="row mt-3">
-                    <div class="col">
-                        <div class="card" style="width: 100%;">
-                            <img src="./img/stats.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                              <li class="list-group-item">An item</li>
-                              <li class="list-group-item">A second item</li>
-                              <li class="list-group-item">A third item</li>
-                            </ul>
-                            <div class="card-body">
-                              <a href="#" class="card-link">Card link</a>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-            </div>
-            
-
-
-
-            
 
 
         </div>
     </div>
-
-
-
-
-
-
-
-
 
 
 </body>
