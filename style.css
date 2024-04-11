@@ -44,3 +44,27 @@
     }
 
 }
+
+
+@media screen and (max-width: 576px){
+    #jumbo{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #span-none{
+        
+        display:none;
+    }
+
+    #div-none{
+               display:none;
+    }
+    
+    #div-p{
+        
+    }
+
+}
+
+
+
