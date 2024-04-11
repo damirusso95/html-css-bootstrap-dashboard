@@ -16,25 +16,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>prova</title>
+    <title>bootstrap</title>
 </head>
 
 <body>
     <!-- header navbar -->
 
     <nav class="navbar bg-body-tertiary h-5rem">
-        <div class="container-fluid">
+        <div class="container-fluid md">
             <a class="navbar-brand" href="#">
                 <img class="w-100" src="./img/logo.svg" alt="Bootstrap">
             </a>
             <!-- barra di ricerca -->
-            <form class="d-flex w-75" role="search">
+            <form class="d-flex w-75 md" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             </form>
             <!-- icone -->
-            <i class="fa-solid fa-list" style="color: #707070;"></i>
-            <i class="fa-solid fa-circle-question" style="color: #707070;"></i>
-            <i class="fa-solid fa-ellipsis-vertical" style="color: #707070;"></i>
+            <i id="icon-none" class="fa-solid fa-list" style="color: #707070;"></i>
+            <i id="icon-none" class="fa-solid fa-circle-question" style="color: #707070;"></i>
+            <i id="icon-none" class="fa-solid fa-ellipsis-vertical" style="color: #707070;"></i>
             <i class="fa-solid fa-bell" style="color: #FFD43B;"></i>
         </div>
     </nav>
@@ -47,21 +47,29 @@
             <div class="col-1 vh-100 bg-dark background-img">
                 <div class="row text-light text-start">
                     <div class="mt-3">
-                        <i class="fa-solid fa-house" style="color: #ffffff;"></i> <span>Home</span>
-                        <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i> <span>Stats</span>
-                        <i class="fa-solid fa-signal" style="color: #ffffff;"></i> <span>Signal</span>
+                        <div class="py-2">
+                            <i class="fa-solid fa-house" style="color: #ffffff;"></i> <span id="span-none">Home</span>
+                        </div>
+                        <div class="py-2">
+                            <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i> <span
+                                id="span-none">Stats</span>
+                        </div>
+                        <div class="py-2">
+                            <i class="fa-solid fa-signal" style="color: #ffffff;"></i> <span
+                                id="span-none">Signal</span>
+                        </div>
                     </div>
                     <div>
-                        <p>admin</p>
+                        <p id="span-none">admin</p>
                     </div>
 
                 </div>
             </div>
             <!-- fascione blu -->
-            <div class="col-11 px-0 vh-100 scroll-bar">
+            <div class="col-11 col-md-11 px-0 vh-100 scroll-bar">
 
                 <div class="row bg-info text-light">
-                    <div class="col-6">
+                    <div class="col-6 col-md-4">
                         <div>
                             <span>Boolean</span> <span class="badge rounded-pill text-bg-primary">Piano blaze</span>
                         </div>
@@ -74,12 +82,12 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-3 col-md-4">
                         <p>Studenti online negli ultimi 30 minuti</p>
                         <h2>125</h2>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-3 col-md-4">
                         <span>nuovo studente</span> <i class="fa-regular fa-square-plus" style="color: #ffffff;"></i>
                     </div>
 
